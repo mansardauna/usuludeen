@@ -1,0 +1,99 @@
+@media only screen and (max-width:600px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .mobile{
+    display: block;
+  }
+
+.sideBar {
+  display: none;
+  width: 15rem;
+  margin-top: 3rem;
+right: 0;  
+margin-right: 1rem;
+height: 40rem;
+padding: 0%
+;
+opacity: 0.9;
+position: absolute;
+  
+}
+.logo img{
+  width: 50%;
+  height: 30%;
+}
+#username{
+  width: fit-content;
+text-align: center;
+margin: 1.5rem 4rem; 
+}
+
+
+.fix{
+  width: 96%;
+ 
+  
+}
+.block{
+padding: .5rem 2rem;
+width: 10rem;
+}
+
+.container{
+  left: 0;
+}
+.block:hover{
+  border: none;
+  border-left: 2px solid white;
+  
+
+}
+.sideFooter{
+  width: 12rem;
+}
+.grid{
+  grid-template-columns: auto auto;
+  margin: 1rem 2rem 0;
+  width: 90%;
+  row-gap: 23px;
+  
+}
+.col{
+ 
+  padding: .5rem;
+}
+.col img{
+  width: 9rem;
+  height: 10rem;
+
+}
+.stat{
+  width: 9rem;
+
+}
+input{
+  display: none;
+}
+
+.lorem{
+  font-size: 12px;
+  width: 80%;
+
+}
+.footer{
+  width: 99%;
+}
+.footer .flex{
+  font-size: 12px;
+  width: 85%;
+ 
+}
+#foot:hover{
+  color: wheat;
+}
+.copy{
+  width: 95%;
+}
+}

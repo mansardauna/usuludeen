@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./mobile.css">
+
+</head>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("sidebar");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+<body>
+  <div class="flex wrapper">
+    <div class="sideBar active" id="sidebar">
+      <div class="card cursor">
+        <img src="./Screenshots/Screenshot from 2023-02-16 05-09-41.png" alt="" class="user">
+        <div id="username">ABDULRAHMAN MANSUR</div>
+        <div class="wallet flex ">
+          <img src="./Screenshots/wallet.svg" id="balance">
+          <span id="amount">$256K</span>
+        </div>
+        <div class="column">
+
+          <div class="block">
+            <img src="./Screenshots/profil.svg" alt="" class="svg">
+            <span id="block">Profile</span>
+          </div>
+
+          <div class="block">
+            <img src="./Screenshots/cart.svg" alt="" class="svg">
+            <span id="block">cart</span>
+          </div>
+
+          <div class="block">
+            <img src="./Screenshots/sell.svg" alt="" class="svg">
+            <span id="block">sell product</span>
+          </div>
+
+          <div class="block">
+            <img src="./Screenshots/settings.svg" alt="" class="svg">
+            <span id="block">settings</span>
+          </div>
+          <div class="block">
+            <img src="./Screenshots/sell.svg" alt="" class="svg">
+            <a href="/index.html"><span id="block">home</span></a>
+          </div>
+
+
+
+        </div>
+        <div class="flex sideFooter space">
+          <a href="../buy.html">
+            <div class="more">Switch Accout</div>
+          </a>
+          <a href="../index.html">
+            <div class="logout">Logout</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="fix flex">
+        <div class="logo">
+          <img src="./Screenshots/logo.png" alt="" class=" ">
+        </div>
+        <div class="notification">
+          <input type="text" placeholder="Search Product">
+          <img src="./Screenshots/money.svg" alt="">
+          <img src="./Screenshots/message.svg" alt="">
+          <img src="./Screenshots/notification.svg" alt="">
+          <img src="./Screenshots/more.svg" alt="" class="mobile" onclick="myFunction()">
+
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col">
+          <img src="./Screenshots/Screenshot from 2023-02-16 05-07-43.png" alt="">
+          <div class="stat">
+            <div class="name column center">
+              <span>Wallpaper 1</span>
+              <span>$25</span>
+              <div class="cartbox">CART</div>
+              <div class="buy">BUY NOW</div>
+
+            </div>
+            <div class="flex">
+              <div class="chart">
+                <div class="color"></div>
+              </div>
+              <div class="chart">
+                <div class="view"></div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <img src="./Screenshots/Screenshot from 2023-02-16 05-08-13.png" alt="">
+          <div class="stat">
+            <div class="name column center">
+              <span>Wallpaper 2</span>
+              <span>$25</span>
+              <div class="cartbox">CART</div>
+              <div class="buy">BUY NOW</div>
+
+            </div>
+            <div class="flex">
+              <div class="chart">
+                <div class="color"></div>
+              </div>
+              <div class="chart">
+                <div class="view"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./Screenshots/Screenshot from 2023-02-16 05-08-26.png" alt="">
+          <div class="stat">
+            <div class="name column center">
+              <span>Wallpaper 3</span>
+              <span>$25</span>
+              <div class="cartbox">CART</div>
+              <div class="buy">BUY NOW</div>
+            </div>
+            <div class="flex">
+              <div class="chart">
+                <div class="color"></div>
+              </div>
+              <div class="chart">
+                <div class="view"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <img src="./Screenshots/Screenshot from 2023-02-16 05-08-43.png" alt="">
+          <div class="stat">
+            <div class="name column center">
+              <span>Wallpaper 4</span>
+              <span>$25</span>
+              <div class="cartbox">CART</div>
+              <div class="buy">BUY NOW</div>
+
+            </div>
+            <div class="flex">
+              <div class="chart">
+                <div class="color"></div>
+              </div>
+              <div class="chart">
+                <div class="view"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="./Screenshots/Screenshot from 2023-02-16 05-09-00.png" alt="">
+          <div class="stat">
+            <div class="name column center">
+              <span>Wallpaper 5</span>
+              <span>$25</span>
+              <div class="cartbox">CART</div>
+              <div class="buy">BUY NOW</div>
+            </div>
+            <div class="flex">
+              <div class="chart">
+                <div class="color"></div>
+              </div>
+              <div class="chart">
+                <div class="view"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./Screenshots/Screenshot from 2023-02-16 05-09-18.png" alt="">
+          <div class="stat">
+            <div class="name column center">
+              <span>Wallpaper 6</span>
+              <span>$25</span>
+              <div class="cartbox">CART</div>
+              <div class="buy">BUY NOW</div>
+
+            </div>
+            <div class="flex">
+              <div class="chart">
+                <div class="color"></div>
+              </div>
+              <div class="chart">
+                <div class="view"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="footer">
+        <div class="flex">
+          <span id="foot">About us</span>
+          <span id="foot">Product</span>
+          <span id="foot">Contact</span>
+          <span id="foot">Awards</span>
+          <span id="foot">Help</span>
+        </div>
+        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, perferendis? Esse, tenetur
+          corrupti explicabo alias, atque voluptates id voluptatum, omnis repellat repudiandae praesentium. Ratione
+          magni
+          ipsam eaque, ullam mollitia consectetur!</div>
+        <div class="socialMedia">
+          <img src="./Screenshots/facebook.svg" alt="">
+          <img src="./Screenshots/twitter.svg" alt="">
+          <img src="./Screenshots/google.svg" alt="">
+          <img src="./Screenshots/apple.svg" alt="">
+          <img src="./Screenshots/git.svg" alt="">
+        </div>
+        <div class="copy">
+          <div>
+            <img src="./Screenshots/copy.svg" alt="">
+            <span id="footname">Mansur_sardauna.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  </div>
+
+  </div>
+</body>
+
+</html>
