@@ -7,6 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <script>
+    function myFunction() {
+      var x = document.getElementById("sidebar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -17,17 +28,18 @@
           <img src="./pics/42a54aa8-30f2-4270-bcc4-31ee7389a51d.jpeg" alt="" class="logo">
           <img src="./pics/new-white.png" alt="" class="logoName">
         </div>
-        <div class="menu flex">
-          <span>Home</span>
-          <span>Contact</span>
-          <span>Gallery</span>
-          <span>About</span>
-          <span>Affiliations</span>
+        <div class="menu flex" id="sidebar">
+          <div>Home</div>
+          <div>Contact</div>
+          <div>Gallery</div>
+          <div>About</div>
+          <div>Affiliations</div>
         </div>
         <div class="portal">
           <img src="./Screenshots/profil.svg" alt="">
           <img src="./Screenshots/notification.svg" alt="">
           <img src="./Screenshots/facebook.svg" alt="">
+          <img src="./Screenshots/more.svg" alt="" class="more" onclick="myFunction ()">
         </div>
       </nav>
       <div class="sec-1">
@@ -84,7 +96,7 @@
     </div>
   </div>
   <div class="sec-3">
-    <div class="flex">
+    <div class="flex set">
       <div class="info">
         <div class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odio. Error ducimus
           similique aliquid, unde sapiente aliquam, excepturi vitae consectetur, officiis harum suscipit. Soluta, ipsum
@@ -105,7 +117,7 @@
 
   <footer>
     <div class="footAbout">
-      <div class="footHead">About Us</div>
+      <div class="footHead">About</div>
       <span>Corses</span>
       <span>history</span>
       <span>License</span>
