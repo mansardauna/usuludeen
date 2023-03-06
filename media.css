@@ -5,8 +5,8 @@ margin: 0;
 padding: 0;
 }
 .wrapper{
-  background-position-y: 15rem;
-  height: 50vh;
+  background-position-y: bottom;
+  height: 50%;
 }
 .blend{
   margin: .5rem;
@@ -51,6 +51,9 @@ z-index: 6;
   width: 90%;
   margin-top: 2rem;
 }
+.col img{
+  width: 15rem;
+}
 .set{
   flex-direction: column;
 }
@@ -59,10 +62,14 @@ z-index: 6;
   margin-bottom: 2rem;
 }
 .gallery{
-  width: 90%;
+  width: fit-content;
 grid-template-columns: auto;
 height: fit-content;
 row-gap: 1rem;
+align-content: center;
+}
+.gallery img{
+width: 18rem;
 }
 footer{
   padding: 1rem;
