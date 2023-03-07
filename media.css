@@ -86,7 +86,7 @@ align-content: center;
 }
 .gallery img{
 width: 100%;
-height: fit-content;
+height: 95%;
 }
 footer{
   padding: 1rem;
