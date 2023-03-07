@@ -113,7 +113,7 @@ margin: 2rem auto;
   font-weight: 300;
   width: 90%;
   font-size: 4rem;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 .container span{
   font-weight: 500;
@@ -143,6 +143,7 @@ margin: 2rem auto;
 }
 .sec-2{
   margin-top: 1rem;
+
 }
 
 .programe{
@@ -171,6 +172,7 @@ margin: 2rem auto;
   padding: 1rem;
   display: block;
   border-radius: 10px;
+  background-color: rgb(248, 243, 236);
   box-shadow: 1px 1px 17px -10px rgb(17, 17, 17);
 
 }
@@ -235,7 +237,7 @@ li{
 .gallery{
   display: grid;
   width:54%;
-  height: 21rem;
+  height:fit-content;
   grid-template-columns: auto auto;
 column-gap: .5rem;
 background-color: rgb(231, 227, 227);
@@ -246,7 +248,7 @@ box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
 }
 .gallery img{
   width: 20rem;
-  height: fit-content;
+  height: 95%;
 }
 footer
 {
