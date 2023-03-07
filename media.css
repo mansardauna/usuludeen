@@ -23,8 +23,12 @@ padding: 0;
   width: 10rem;
 
 }
-nav{
-  width: 98%;
+nav, .pg-nav{
+  width: 97%;
+  color: white;
+}
+.pg-nav{
+  width: 92%;
 }
 .menu{
   display: none;
@@ -42,6 +46,9 @@ z-index: 6;
 }
 .more{
   display: block;
+}
+.icon{
+  display: none;
 }
 .txt{
   font-size: 35px;
@@ -79,6 +86,7 @@ align-content: center;
 }
 .gallery img{
 width: 100%;
+height: 100%;
 }
 footer{
   padding: 1rem;
@@ -91,5 +99,17 @@ footer{
 }
 footer span{
   font-size: 13px;
+}
+.section{
+  grid-template-columns: auto;
+  row-gap: 0;
+  column-gap: 0;
+}
+.back{
+  display: block;
+}
+.history{
+  margin: 0 0 01rem 0 ;
+  padding: 1rem 0;
 }
 }

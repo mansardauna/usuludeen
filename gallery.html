@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <script>
+    function myFunction() {
+      var x = document.getElementById("sidebar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <nav class="flex pg-nav">
+    <div class="logodiv">
+      <img src="./pics/whitelogo.jpeg" alt="" class="logo">
+      <img src="./pics/new.png" alt="" class="logoName">
+    </div>
+    <div class="menu flex" id="sidebar">
+      <div>Contact</div>
+      <a href="./index.html">
+        <div>home</div>
+      </a>
+
+      <a href="./About.html">
+        <div>About</div>
+      </a>
+      <div>Calender</div>
+    </div>
+    <div class="portal pg-portal">
+      <img src="./Screenshots/profil.svg" alt="" class="icon">
+      <img src="./Screenshots/twitter.svg" alt="" class="icon">
+      <img src="./Screenshots/facebook.svg" alt="" class="icon">
+      <img src="./Screenshots/menuBlue.svg" alt="" class="more" onclick="myFunction ()">
+    </div>
+  </nav>
+
+  <div class="section">
+    <div>
+      <img src="./pics/All2021.jpg" alt="">
+      <img src="./pics/all2022.jpeg" alt="">
+      <img src="./pics/gallery1.jpeg" alt="">
+      <img src="./pics/gallery3.jpeg" alt="">
+      <img src="./pics/gallery2.jpeg" alt="">
+      <img src="./pics/bg.jpeg" alt="">
+    </div>
+    <div>
+      <img src="./pics/All2021.jpg" alt="">
+      <img src="./pics/all2022.jpeg" alt="">
+      <img src="./pics/gallery1.jpeg" alt="">
+      <img src="./pics/gallery3.jpeg" alt="">
+      <img src="./pics/gallery2.jpeg" alt="">
+      <img src="./pics/bg.jpeg" alt="">
+    </div>
+  </div>
+  <a href="./index.html">
+    <div class="apply back">Home</div>
+  </a>
+
+
+  <footer>
+    <div class="footAbout">
+      <div class="footHead">About</div>
+      <span>Courses</span>
+      <span>history</span>
+      <span>License</span>
+      <a href="./gallery.html"><span>Gallery</span></a>
+    </div>
+
+    <div class="footAbout">
+      <div class="footHead">Acedemics</div>
+      <span>Syllabus</span>
+      <span>Affiliations</span>
+      <span>Staffs</span>
+      <span>Qualification</span>
+    </div>
+
+    <div class="footAbout">
+      <div class="footHead">Address</div>
+      <span>231 GbagbaAirport ilorin
+        <br>Kwara State</br></span>
+    </div>
+
+    <div class="footAbout">
+      <div class="footHead">Contact us</div>
+      <span>08032174733</span>
+      <span>08147661430</span>
+      <span>usuludeenislammy@gmail.com</span>
+      <div class="social">
+        <img src="./Screenshots/facebook.svg" alt="">
+        <img src="./Screenshots/twitter.svg" alt="">
+        <img src="./Screenshots/google.svg" alt="">
+      </div>
+    </div>
+    </div>
+  </footer>
+  <div class="copy">
+    <img src="./Screenshots/copy.svg" alt="">
+    <div class="copyName">Mansursardauna.com</div>
+  </div>
+</body>
+
+</html>

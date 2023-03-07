@@ -3,6 +3,10 @@ body{
   padding: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: currentColor;
+}
 .more{
   display: none;
 }
@@ -19,7 +23,7 @@ body{
   background-position-y: 3rem;
 background-blend-mode:overlay; 
 color: white;
-background-color: rgba(12, 175, 250, 0.986);
+background-color: rgba(4, 159, 231, 0.986);
 }
 
 .blend{
@@ -28,11 +32,15 @@ background-color: rgba(12, 175, 250, 0.986);
 
 }
 nav{
-  width: 100%;
+  width: 98%;
   justify-content: space-between;
   padding: .5rem;
   margin-bottom: 2rem;
   align-items: center;
+}
+.pg-nav{
+  width: 85%;
+  margin: auto;
 }
 .menu{
 width: 28rem;
@@ -52,7 +60,7 @@ margin: 0;
 }
 
 .menu div:hover{
-  background-color: rgba(255, 255, 255, 0.527);
+  background-color: rgba(255, 255, 255, 0.144);
   color: red;
 }
 .portal{
@@ -66,12 +74,13 @@ margin: 0;
   font-size: 12px;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
+  box-shadow: 1px 1px 17px -7px rgb(17, 17, 17);
 }
 .portal img{
   width: 20px;
   height: 15px;
 }
+
 .portal:hover{
   background-color: rgb(109, 22, 22);
 }
@@ -82,7 +91,7 @@ margin: 0;
 .logo{
   width: 7rem;
   border-radius: 10px;
-  box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
+  /* box-shadow: 1px 1px 17px -3px rgb(17, 17, 17); */
 
 }
 .logoName{
@@ -101,7 +110,7 @@ margin: 2rem auto;
   border-radius: 15px;
 }
 .txt{
-  font-weight: 200;
+  font-weight: 300;
   width: 90%;
   font-size: 4rem;
   margin: 3rem auto;
@@ -120,14 +129,17 @@ margin: 2rem auto;
   padding: .7rem 2rem;
   /* border: 1px solid white; */
   margin-top: 2rem;
-  box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
+  box-shadow: 1px 1px 17px -3px rgb(53, 52, 52);
  border-radius: 20px;
-  background-color: rgb(252, 127, 105);
-  width: fit-content;
+ background-color: rgb(252, 127, 105);
+ width: fit-content;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
   cursor: pointer;
+}
+.icon{
+  display: block;
 }
 .sec-2{
   margin-top: 1rem;
@@ -156,11 +168,10 @@ margin: 2rem auto;
 .col{
   width: 22%;
   height: 25rem;
-  background-color: rgb(231, 227, 227);
   padding: 1rem;
   display: block;
   border-radius: 10px;
-  box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
+  box-shadow: 1px 1px 17px -10px rgb(17, 17, 17);
 
 }
 .col img{
@@ -191,6 +202,10 @@ li{
   margin: auto;
   font-weight: 800;
 }
+.back{
+  margin-bottom: 2rem;
+  display: none;
+}
 .sec-3 .flex{
  width: 90%;
  margin: 3rem auto;
@@ -203,15 +218,19 @@ li{
 }
 .lorem{
   border-left: 2px solid  lightgray;
-
+  color: rgb(112, 109, 109);
   padding-left: 2rem;
   text-align: justify;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 .read{
   background-color: tomato;
   margin: 0 2rem;
+}
+.read:hover, .apply:hover{
+  background-color: rgb(185, 64, 42);
+
 }
 .gallery{
   display: grid;
@@ -233,11 +252,13 @@ footer
 {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: rgba(12, 175, 250, 0.986);
   padding: 2rem 3rem;
+  background-color: rgba(12, 175, 250, 0.986);
+
 }
 footer span{
-  font-weight: 300;
+  font-weight: 400;
+  cursor: pointer;
 }
 .footAbout{
   display: grid;
@@ -249,17 +270,72 @@ footer span{
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 600;
+  color: rgb(243, 237, 237);
 }
 .copy{
-  background-color: rgb(0, 140, 255);
-  color: white;
+  background-color: rgba(19, 63, 206, 0.897);
+  border-top: 1px solid white;
+  color: rgb(243, 237, 237);
   align-items: center;
   justify-content: center;
   display: flex;
   font-size: 14px;
   font-weight: 300;
-  padding: .2rem 0; 
+  padding: .5rem 0; 
 }
 .copy img{
   width: 1rem;
+}
+
+
+/* gallery-page */
+
+.section{
+  display: grid;
+  width: 98;
+  padding: 2rem 1rem ;
+  margin: 0 0 1rem 0;
+  background-color: rgba(117, 189, 247, 0.322);
+  grid-template-columns: auto auto;
+  row-gap: 2rem;
+}
+.section div{
+  margin: 0;
+  height: fit-content;
+}
+.section img{
+  width: 98%;
+  box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
+  margin-bottom: 1rem;
+  height: 15%;
+}
+
+/* about page */
+
+.history{
+  width: 100%;
+  margin: 4rem auto;
+ 
+  
+  background: url(./pics/whitelogo.jpeg) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position-x: 15rem; */
+background-blend-mode:lighten; 
+background-color: rgba(209, 233, 245, 0.986);
+padding: 5rem 0;
+}
+.head{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: tomato;
+  margin: 1rem auto;
+  width: fit-content;
+}
+.detail{
+  text-align: justify;
+  width: 60%;
+  margin: auto;
 }
