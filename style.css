@@ -331,9 +331,9 @@ background-color: rgba(209, 233, 245, 0.986);
 padding: 5rem 0;
 }
 .head{
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 700;
   color: tomato;
   margin: 1rem auto;
   width: fit-content;
