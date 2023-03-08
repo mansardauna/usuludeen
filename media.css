@@ -112,4 +112,16 @@ footer span{
   margin: 0 0 01rem 0 ;
   padding: 1rem 0;
 }
+.card{
+  grid-template-columns: auto auto;
+  width: 91%;
+  margin: 2rem 0;
+}
+.note{
+  width: 7rem;
+  height: 7rem;
+}
+.note div{
+  font-size: 15px;
+}
 }

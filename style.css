@@ -343,3 +343,57 @@ padding: 5rem 0;
   width: 60%;
   margin: auto;
 }
+
+
+/* acedemics */
+.card{
+  width: 70%;
+  margin: 2rem auto;
+  align-items: center;
+  background-color: rgba(209, 233, 245, 0.986);
+  display: grid;
+  justify-items: center;
+  padding: 1rem;
+  row-gap: 3rem;
+  color: white;
+  grid-template-columns: auto auto auto;
+}
+.note{
+  width: 15rem;
+  height: 15rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.note div{
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+  color: red;
+}
+.black{
+  background-color: black;
+  color: white;
+}
+.white{
+  color: black;
+  background-color: #fff;
+}
