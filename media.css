@@ -23,12 +23,20 @@ padding: 0;
   width: 10rem;
 
 }
-nav, .pg-nav{
-  width: 97%;
+.logo-arb, .logo-eng{
+  font-size: 15px;
+}
+
+nav{
+  width: 96%;
+  color: white;
+}
+#sidebar{
   color: white;
 }
 .pg-nav{
   width: 92%;
+  color: rgba(4, 159, 231, 0.986);;
 }
 .menu{
   display: none;
@@ -51,11 +59,11 @@ z-index: 6;
   display: none;
 }
 .txt{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
 }
 .txt-arb{
-  font-size: 30px;
+  font-size: 25px;
 }
 .parent-col{
   flex-direction: column;
@@ -130,5 +138,8 @@ footer span{
 }
 .note div{
   font-size: 15px;
+}
+.note img{
+  width: 2rem;
 }
 }
