@@ -113,7 +113,12 @@ margin: 2rem auto;
   font-weight: 300;
   width: 90%;
   font-size: 4rem;
-  margin: 2rem auto;
+  margin: 1rem auto;
+}
+.txt-arb{
+  font-size: 3rem;
+  color: rgb(255, 234, 181);
+  margin-bottom: 2rem;
 }
 .container span{
   font-weight: 500;
@@ -162,7 +167,7 @@ margin: 2rem auto;
 }
 .parent-col{
   width: 80%;
-  padding: 3rem;
+  padding: 2rem 8.5rem;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -181,12 +186,14 @@ margin: 2rem auto;
   height: 10rem;
   margin-bottom: 1rem;
 }
-.label span{
+.level{
   text-transform: uppercase;
   width:fit-content;
-  margin: 0rem 4rem;
+  margin: auto;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 600;
+  color: brown;
+  text-align: center;
   text-justify: center;
 }
 li{
@@ -212,6 +219,7 @@ li{
 }
 .sec-3 .flex{
  width: 90%;
+ padding: 2rem 7rem;
  margin: 3rem auto;
  justify-content: space-between;
  align-items: center;
@@ -242,7 +250,7 @@ li{
   height:fit-content;
   grid-template-columns: auto auto;
 column-gap: .5rem;
-background-color: rgb(231, 227, 227);
+background-color: rgba(209, 233, 245, 0.986);
 padding: .5rem;
 border-radius: 10px;
 box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
@@ -258,6 +266,7 @@ footer
   grid-template-columns: auto auto auto auto;
   padding: 2rem 3rem;
   background-color: rgba(12, 175, 250, 0.986);
+  text-align: center;
 
 }
 footer span{
@@ -277,8 +286,7 @@ footer span{
   color: rgb(243, 237, 237);
 }
 .copy{
-  background-color: rgba(19, 63, 206, 0.897);
-  border-top: 1px solid white;
+  background-color: rgba(28, 77, 168, 0.822);
   color: rgb(243, 237, 237);
   align-items: center;
   justify-content: center;
