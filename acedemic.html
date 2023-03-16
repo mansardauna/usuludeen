@@ -8,6 +8,8 @@
   <title>Usuludeen</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
+  <link href="/dist/output.css" rel="stylesheet">
+
   <script>
     function myFunction() {
       var x = document.getElementById("sidebar");
@@ -29,19 +31,19 @@
         <div class="logo-eng">Markaz Usuludeen</div>
       </div>
     </div>
-    <div class="menu flex" id="sidebar">
+    <div class="menu hidden lg:flex" id="sidebar">
       <a href="./index.html">
         <div>home</div>
       </a> <a href="./gallery.html">
         <div>gallery</div>
       </a>
-      <a href="./index.html">
-        <div>home</div>
+      <a href="./About.html">
+        <div>about</div>
       </a>
 
       <div>Calender</div>
     </div>
-    <div class="portal pg-portal">
+    <div class="portal p-4 pg-portal">
       <img src="./Screenshots/profil.svg" alt="" class="icon">
       <img src="./Screenshots/twitter.svg" alt="" class="icon">
       <img src="./Screenshots/facebook.svg" alt="" class="icon">
@@ -93,16 +95,15 @@
   <a href="./index.html">
     <div class="apply back">Home</div>
   </a>
-  <footer>
+  <footer class="">
     <div class="footAbout">
       <div class="footHead">About</div>
       <span>Courses</span>
       <span>history</span>
       <span>License</span>
-      <a href="./gallery.html"><span>Gallery</span></a>
     </div>
 
-    <div class="footAbout">
+    <div class="footAbout hidden lg:grid">
       <div class="footHead">Acedemics</div>
       <span>Syllabus</span>
       <span>Affiliations</span>
@@ -110,7 +111,7 @@
       <span>Qualification</span>
     </div>
 
-    <div class="footAbout">
+    <div class="footAbout hidden lg:grid">
       <div class="footHead">Address</div>
       <span>231 GbagbaAirport ilorin
         <br> Kwara State</br>
@@ -122,7 +123,7 @@
       <span>08032174733</span>
       <span>08147661430</span>
       <span>usuludeenislammy<br>@gmail.com</span>
-      <div class="social">
+      <div class="social m-auto flex">
         <img src="./Screenshots/facebook.svg" alt="">
         <img src="./Screenshots/twitter.svg" alt="">
         <img src="./Screenshots/google.svg" alt="">
@@ -131,7 +132,7 @@
     </div>
 
   </footer>
-  <div class="copy">
+  <div class="copy bg-sky-600">
     <img src="./Screenshots/copy.svg" alt="">
     <div class="copyName">Mansursardauna.com</div>
   </div>

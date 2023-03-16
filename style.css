@@ -45,6 +45,7 @@ nav{
 .pg-nav{
   width: 85%;
   margin: auto;
+  color: rgba(4, 159, 231, 0.986);;
 }
 .menu{
 width: 28rem;
@@ -262,6 +263,10 @@ li{
   background-color: rgb(185, 64, 42);
 
 }
+.pg-portal{
+  background-color: rgba(12, 175, 250, 0.986);
+
+}
 .gallery{
   display: grid;
   width:54%;
@@ -290,11 +295,13 @@ footer
 footer span{
   font-weight: 400;
   cursor: pointer;
+  width: fit-content;
+  margin: auto;
 }
 .footAbout{
   display: grid;
   grid-template-columns: auto;
-  row-gap: 1rem;
+  row-gap: .5rem;
   color: white;
 }
 .footHead{
@@ -302,10 +309,10 @@ footer span{
   text-transform: uppercase;
   font-weight: 600;
   color: rgb(243, 237, 237);
-  text-shadow: 3px 2px 2px rgb(68, 67, 67);
+  /* text-shadow: 3px 2px 2px rgb(68, 67, 67); */
 }
 .copy{
-  background-color: rgba(28, 77, 168, 0.822);
+  background-color: #0284c7;
   color: rgb(243, 237, 237);
   align-items: center;
   justify-content: center;
@@ -340,6 +347,7 @@ footer span{
   margin-bottom: 1rem;
   height: 15%;
 }
+
 
 /* about page */
 
@@ -383,7 +391,6 @@ padding: 5rem 0;
   background-color: rgba(209, 233, 245, 0.986);
   display: grid;
   justify-items: center;
-  padding:  2rem 1rem;
   row-gap: 3rem;
   color: white;
   grid-template-columns: auto auto auto;
@@ -391,7 +398,7 @@ padding: 5rem 0;
 .note{
   width: 15rem;
   height: 15rem;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 1px 1px 17px -3px rgb(17, 17, 17);
   align-items: center;
   justify-content: center;
@@ -437,6 +444,7 @@ padding: 5rem 0;
 
 /* notic */
 .board{
-  border: 15px solid saddlebrown;
+  border: 20px solid saddlebrown;
   color: white;
+  box-shadow: 2px 2px 15px -3px rgb(17, 17, 17);
 }

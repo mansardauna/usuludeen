@@ -4,6 +4,9 @@ body{
 margin: 0;
 padding: 0;
 }
+.hidden{
+  display: none;
+}
 .wrapper{
   background-position-y: bottom;
   height: 40%;
@@ -71,7 +74,7 @@ z-index: 6;
 }
 .parent-col{
   flex-direction: column;
-  width: 68%;
+  width: 64%;
   margin-top: 1rem;
   padding: .5rem 4rem;
 }
@@ -110,7 +113,7 @@ height: 95%;
 footer{
   padding: 1rem;
   grid-template-columns: auto auto;
-  row-gap: 2rem;
+  row-gap: 1rem;
   column-gap: .5rem;
 }
 .footAbout {
@@ -133,12 +136,15 @@ footer span{
 }
 .card{
   grid-template-columns: auto auto;
-  width: 91%;
   margin: 2rem 0;
+  width: 100%;
+  padding:  2rem 0;
+  height: fit-content;
 }
 .note{
-  width: 7rem;
-  height: 7rem;
+  width: 9rem;
+  height: 9rem;
+  padding: 1rem;
 }
 .note div{
   font-size: 15px;
@@ -149,5 +155,8 @@ footer span{
 .board{
   border: 15px solid saddlebrown;
   color: white;
+}
+.pg-portal{
+  background-color: transparent;
 }
 }
