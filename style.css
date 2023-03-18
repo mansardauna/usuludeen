@@ -237,7 +237,7 @@ li{
   display: none;
 }
 .sec-3 .flex{
- width: 80%;
+ width: 90%;
  padding: 1rem;
  margin: auto;
  justify-content: space-between;
@@ -245,6 +245,8 @@ li{
 }
 .info{
   width: 35%;
+  position: relative;
+  
   
 }
 .lorem{
@@ -253,7 +255,7 @@ li{
   padding-left: 2rem;
   text-align: justify;
   font-weight: 400;
-  margin-bottom: 1rem;
+  
 }
 .read{
   background-color: tomato;
@@ -262,6 +264,27 @@ li{
 .read:hover, .apply:hover{
   background-color: rgb(185, 64, 42);
 
+}
+.more_wrap{
+  width: fit-content;
+  align-items: center;
+  display: flex;
+ 
+  
+  right: 0;
+  position: absolute;
+}
+.more_btn{
+  width: fit-content;
+  font-size: 13px;
+  color: tomato;
+  padding: .5rem;
+  padding-right: 0;
+}
+.more_line{
+  width: 2rem;
+  height: .1rem;
+  background-color: tomato;
 }
 .pg-portal{
   background-color: rgba(12, 175, 250, 0.986);
@@ -387,11 +410,12 @@ padding: 5rem 0;
   width: 70%;
   margin: 2rem auto;
   height: 37rem;
+  padding: 2rem 1rem;
   align-items: center;
   background-color: rgba(209, 233, 245, 0.986);
   display: grid;
   justify-items: center;
-  row-gap: 3rem;
+  row-gap: 2rem;
   color: white;
   grid-template-columns: auto auto auto;
 }
@@ -448,3 +472,6 @@ padding: 5rem 0;
   color: white;
   box-shadow: 2px 2px 15px -3px rgb(17, 17, 17);
 }
+iframe{
+  margin: 2rem auto;
+ 
