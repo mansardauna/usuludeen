@@ -474,4 +474,8 @@ padding: 5rem 0;
 }
 iframe{
   margin: 2rem auto;
- 
+}
+.lg-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
